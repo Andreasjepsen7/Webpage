@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiple" content="IE-edge">
+    <meta name="Viewport" content="width=device-width, inital-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/603d0b70c9.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </nav>
+                <p>SKO elev</p>
+                <h1>Hi, i'm <span> Andreas Jepsen </span> <br> From Denmark</h1>
+            </div>
+        </div>
+     </div>
+     <!-- -------------About----------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a young man from Odense, Denmark with a passion for programming. <br>
+                        My interrest in programming got started when a friend from my school told me about it
+                        and it sounded very interresting so I tried it out.<br>
+                        I quickly found out that i had a talent for learning new code and found my skills were best put to use making SQL servers and managing them.<br>
+                        In my time in SKO at SDE I have learned alot about different languages, SQL, C#, PHP, CSS and HTML.<br>
+                        As a person I am easy going and extremely energetic to learn all I can
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C#</span><br>Design of WPF apps</li>
+                                <li><span>SQL</span><br>Design and management of SQL servers</li>
+                                <li><span>HTML</span><br>Designing websites</li>
+                            </ul>
+                        </div><div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Bogudlejning</span><br>Database for library</li>
+                                <li><span>Kaostek</span><br>Updating old database and utilizing normalization</li>
+                                <li><span>Timer</span><br>Break timer for customer</li>
+                            </ul>
+                        </div><div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>GF2</span><br>SDE</li>
+                                <li><span>Ordinary ship's assistant</span><br>Georg Stage</li>
+                                <li><span>10th Grade</span><br>Studie 10 Esbjerg</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--------------services--------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>SQL server design</h2>
+                    <p>I have worked with setup, normalizing and managment of SQL servers</p>
+                    <a href="https://imgur.com/a/xByUDVZ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>I have made a couple of apps using C# </p>
+                    <a href="https://github.com/Andreasjepsen7/myProjects/tree/main">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI design</h2>
+                    <p>I know how to make it look pretty</p>
+                    <a href="https://imgur.com/a/2qJPxst">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!-------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/diagram.png">
+                <div class="layer">
+                    <h3>SQL diagram</h3>
+                    <p>Making diagrams before you start working on the database makes it very easy to get it into perspective</p>
+                    <a href="https://imgur.com/a/xByUDVZ"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/csharptamagochi.png">
+                <div class="layer">
+                    <h3>C# code</h3>
+                    <p>Link to my github</p>
+                    <a href="https://github.com/Andreasjepsen7/myProjects/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/UIkode.png">
+                <div class="layer">
+                    <h3>WPF UI</h3>
+                    <p>This is from a project i did with WPF to make a Base64 decrypter where the user could load a file with Base64 text and it would convert it to readable text</p>
+                    <a href="https://imgur.com/a/2qJPxst"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Andreasjepsen7/" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-regular fa-paper-plane"></i> Andreasjepsen6@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +45 4253 7736</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Andreasjepsen7/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/andreas-jepsen-704103211/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Images/CV (2).pdf" download class="btn btn2">Download CV
+
+                </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2fibE4XGNAdSDG_8Ke3wmh5mW5ViySq9aqIBxKxPucQo3lQ/viewform?embedded=true" width="700" height="800" frameborder="0" marginheight="0" marginwidth="0">Indlæser…</iframe>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"> 
+        <p>Copyright © Andreas Jepsen</p>
+    </div>
+</div>
+
+<button onclick="topFunction()" id="Mybtn" title="Go to top">Top</button>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+// Get the button:
+let mybutton = document.getElementById("Mybtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
+</body>
+</html>
